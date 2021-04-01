@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiData/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiData/categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiData/options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/options.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/options.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" afterDir="false" />
-    </list>
+    <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-367">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="233">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="840">
-              <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#925#926#0" expanded="true" />
@@ -244,7 +229,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617273087278" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617273687183" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -723,26 +708,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
-          <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#925#926#0" expanded="true" />
             <element signature="e#1010#1011#0" expanded="true" />
             <element signature="e#1059#1060#0" expanded="true" />
             <element signature="e#1109#1110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-367">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
