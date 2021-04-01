@@ -1,11 +1,11 @@
 package apiData;
 
-public class categories {
-    String id;
-    String name;
-    Parent parent;
-    options options;
-    String leaf;
+public class Categories {
+    private String id;
+    private String name;
+    private Parent parent;
+    private Options options;
+    private boolean leaf;
 
     public String getId() {
         return id;
@@ -19,11 +19,11 @@ public class categories {
         return parent;
     }
 
-    public options getOptions() {
+    public Options getOptions() {
         return options;
     }
 
-    public String getLeaf() {
+    public boolean getLeaf() {
         return leaf;
     }
 }
