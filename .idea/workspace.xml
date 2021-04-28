@@ -1,98 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
+    <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AllegroTask.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Parameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Restrictions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/parameters.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/ParametersSupportedByCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ParametersSupportedByCategory.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="259065069">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="27" />
-          <entry key="java" value="4987" />
-          <entry key="properties" value="12" />
-          <entry key="xml" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="4987" />
-          <entry key="PLAIN_TEXT" value="27" />
-          <entry key="Properties" value="12" />
-          <entry key="XML" value="15" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="class" value="8" />
-          <entry key="java" value="31" />
-          <entry key="properties" value="1" />
-          <entry key="xml" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="8" />
-          <entry key="JAVA" value="31" />
-          <entry key="Properties" value="1" />
-          <entry key="XML" value="5" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#925#926#0" expanded="true" />
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1109#1110#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -106,42 +40,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/Desktop/4d486e8c-1ee3-4cb2-a4fe-2da252e8f884" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/4d486e8c-1ee3-4cb2-a4fe-2da252e8f884" value="PREVIEW" />
-        <entry key="D:/spring-w-akcji-wydanie-iv-craig-walls/Chapter_02/stereo-autoconfig" value="PREVIEW" />
-        <entry key="D:/spring-w-akcji-wydanie-iv-craig-walls/Chapter_02/stereo-javaconfig" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/testBase/PageFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/weatherTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiService/categories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiService/options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/Parent.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/categories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiService/apiDataService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/Options.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/Restrictions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/Categories.java" />
-        <option value="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/parameters.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/apiData/Parameters.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" />
-      </list>
-    </option>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -149,87 +47,14 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1823" />
-    <option name="y" value="-12" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
+  <component name="ProjectId" id="1rX2baGRePx3CAQBWU7IiPt9bjL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apiData" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="apiService" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="testBase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AllegroTask" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AllegroTask" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617273687183" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -243,8 +68,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ParametersSupportedByCategory">
-    <configuration name="CategoriesTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.PostTests.createNewContact">
+    <configuration name="CategoriesTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -254,13 +79,32 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CategoriesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoriesTests.weatherTest" type="TestNG" factoryName="TestNG" nameIsGenerated="true">
+    <configuration name="CategoriesTests.categorySizeTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllegroTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CategoriesTests" />
+      <option name="METHOD_NAME" value="categorySizeTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoriesTests.weatherTest" type="TestNG" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -286,23 +130,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryByIdTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AllegroTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CategoryByIdTests" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParametersSupportedByCategory" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ParametersSupportedByCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -312,13 +140,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.ParametersSupportedByCategory" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametersSupportedByCategory.checkCategoryParameters" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostTests.createNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -327,8 +156,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ParametersSupportedByCategory" />
-      <option name="METHOD_NAME" value="checkCategoryParameters" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostTests" />
+      <option name="METHOD_NAME" value="createNewContact" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -336,7 +165,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametersSupportedByCategory.getParametersById" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostTests.getTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -345,8 +174,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.ParametersSupportedByCategory" />
-      <option name="METHOD_NAME" value="getParametersById" />
+      <option name="MAIN_CLASS_NAME" value="tests.PostTests" />
+      <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -356,19 +185,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.CategoriesTests.weatherTest" />
-      <item itemvalue="TestNG.CategoryByIdTests" />
-      <item itemvalue="TestNG.ParametersSupportedByCategory.getParametersById" />
       <item itemvalue="TestNG.CategoriesTests" />
-      <item itemvalue="TestNG.ParametersSupportedByCategory.checkCategoryParameters" />
       <item itemvalue="TestNG.ParametersSupportedByCategory" />
+      <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
+      <item itemvalue="TestNG.PostTests.createNewContact" />
+      <item itemvalue="TestNG.PostTests.getTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ParametersSupportedByCategory" />
-        <item itemvalue="TestNG.ParametersSupportedByCategory.checkCategoryParameters" />
-        <item itemvalue="TestNG.ParametersSupportedByCategory.getParametersById" />
+        <item itemvalue="TestNG.PostTests.createNewContact" />
+        <item itemvalue="TestNG.PostTests.getTest" />
         <item itemvalue="TestNG.CategoriesTests" />
-        <item itemvalue="TestNG.CategoryByIdTests" />
+        <item itemvalue="TestNG.ParametersSupportedByCategory" />
+        <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -385,72 +214,18 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 01m 43s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 07m 10s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 07m 20s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 13m 36s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 19m 29s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 25m 33s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 25m 41s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 29m 11s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory_checkCategoryParameters - 2021.04.01 at 12h 29m 20s.xml">
-      <configuration name="ParametersSupportedByCategory.checkCategoryParameters" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ParametersSupportedByCategory - 2021.04.01 at 12h 29m 33s.xml">
-      <configuration name="ParametersSupportedByCategory" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1176" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32917467" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32725528" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39635316" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32949087" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" />
-    </layout>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -464,16 +239,14 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/PostTests.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -531,206 +304,5 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar!/io/restassured/response/ExtractableResponse.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiData/Parent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar!/io/restassured/path/json/mapper/factory/DefaultGsonObjectMapperFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar!/io/restassured/path/json/mapper/factory/DefaultJackson1ObjectMapperFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/json-path/4.3.3/json-path-4.3.3.jar!/io/restassured/path/json/config/JsonPathConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="174" selection-start-line="174" selection-end-line="174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar!/io/restassured/internal/RestAssuredResponseOptionsGroovyImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="574" selection-start-line="574" selection-end-line="574" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/rest-assured/rest-assured/4.3.3/rest-assured-4.3.3.jar!/io/restassured/internal/RestAssuredResponseOptionsImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiData/Categories.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiData/Parameters.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#278#279#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#344#345#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiData/Options.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-          <folding>
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1365#1366#0" expanded="true" />
-            <element signature="e#1401#1402#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1483#1484#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1573#1574#0" expanded="true" />
-            <element signature="e#1627#1628#0" expanded="true" />
-            <element signature="e#1675#1676#0" expanded="true" />
-            <element signature="e#1728#1729#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1857#1858#0" expanded="true" />
-            <element signature="e#1903#1904#0" expanded="true" />
-            <element signature="e#1945#1946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiData/Restrictions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-          <folding>
-            <element signature="e#217#218#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/parameters.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/testBase/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#925#926#0" expanded="true" />
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1109#1110#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
