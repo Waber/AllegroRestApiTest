@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AllegroTask.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Parameters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Restrictions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/parameters.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PostTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/ParametersSupportedByCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/ParametersSupportedByCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/PostTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/PostTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,42 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.PostTests.createNewContact">
-    <configuration name="CategoriesTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AllegroTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CategoriesTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoriesTests.categorySizeTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AllegroTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CategoriesTests" />
-      <option name="METHOD_NAME" value="categorySizeTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.CategoryByIdTests">
     <configuration name="CategoriesTests.weatherTest" type="TestNG" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
@@ -130,6 +89,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CategoryByIdTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllegroTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CategoryByIdTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CategoryByIdTests.wrongCategoryIdCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllegroTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CategoryByIdTests" />
+      <option name="METHOD_NAME" value="wrongCategoryIdCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParametersSupportedByCategory" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
@@ -147,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostTests.createNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -157,8 +151,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.PostTests" />
-      <option name="METHOD_NAME" value="createNewContact" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -185,19 +178,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.CategoriesTests.weatherTest" />
-      <item itemvalue="TestNG.CategoriesTests" />
+      <item itemvalue="TestNG.CategoryByIdTests" />
       <item itemvalue="TestNG.ParametersSupportedByCategory" />
-      <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
-      <item itemvalue="TestNG.PostTests.createNewContact" />
+      <item itemvalue="TestNG.CategoryByIdTests.wrongCategoryIdCheck" />
       <item itemvalue="TestNG.PostTests.getTest" />
+      <item itemvalue="TestNG.PostTests" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostTests.createNewContact" />
+        <item itemvalue="TestNG.CategoryByIdTests" />
+        <item itemvalue="TestNG.PostTests" />
         <item itemvalue="TestNG.PostTests.getTest" />
-        <item itemvalue="TestNG.CategoriesTests" />
+        <item itemvalue="TestNG.CategoryByIdTests.wrongCategoryIdCheck" />
         <item itemvalue="TestNG.ParametersSupportedByCategory" />
-        <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,64 +238,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/tests/PostTests.java</url>
-          <line>33</line>
+          <line>34</line>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>firstParametersNode.get(&quot;options&quot;).</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstParametersNode.get(&quot;options&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstParametersNode</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>firstParametersNode.get(&quot;id&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(&quot;parameters&quot;).get(1)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(&quot;parameters&quot;).get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(&quot;parameters&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(0).get(&quot;id&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>node.get(1).get(&quot;id&quot;)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
   </component>
 </project>

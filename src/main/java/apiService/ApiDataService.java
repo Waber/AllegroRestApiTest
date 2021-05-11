@@ -29,8 +29,7 @@ public class ApiDataService {
 
     public Categories getCategoryById(String token, String categoryId){
         RestAssured.baseURI = Endpoints.APIURL;
-        Response op = given().header("Authorization","Bearer " + token)
-                .header("accept","application/vnd.allegro.public.v1+json")
+        Response op = given().log().all()
                 .when()
                 .get(Endpoints.CATEGORIES+"/"+ categoryId);
         if (op.getStatusCode() == 200){

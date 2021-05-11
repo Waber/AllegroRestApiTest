@@ -3,6 +3,7 @@ package tests;
 import apiConfig.Endpoints;
 import apiService.ApiConfig;
 import io.restassured.RestAssured;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import testBase.TestBase;
@@ -11,7 +12,7 @@ import static io.restassured.RestAssured.given;
 
 public class PostTests {
 
-    @BeforeMethod
+    @BeforeClass
     public void setup(){
         ApiConfig.setUp();
     }

@@ -14,11 +14,11 @@ public class TestBase {
     public ApiDataService apiDataService;
     private String token;
 
-    @BeforeMethod(alwaysRun = true)
-    public void beforeMethod(Method method){
+    public TestBase(){
         apiConnection = new ApiConnection();
         apiDataService = new ApiDataService();
-        token = apiConnection.getAccessToken(clientId, clientSecretId);
+        //token = apiConnection.getAccessToken(clientId, clientSecretId);
+        ApiConfig.setUp();
     }
 
     public String getToken() {
