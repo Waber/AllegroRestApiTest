@@ -7,4 +7,5 @@ public interface Endpoints {
       String TAG = "/account/additional-emails";
       String BLACKLIST = "/sale/blacklisted-users";
       String CONTACTS = SALE+"/offer-contacts";
+      String ALLEGRO_BASE = "https://allegro.pl";
 }

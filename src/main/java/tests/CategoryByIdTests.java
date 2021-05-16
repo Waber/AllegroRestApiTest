@@ -13,7 +13,7 @@ public class CategoryByIdTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void prepare() {
-         category = apiDataService.getCategoryById(getToken(),categoryID);
+         category = apiDataService.getCategoryById(categoryID);
     }
 
     @Test
@@ -28,6 +28,6 @@ public class CategoryByIdTests extends TestBase {
 
     @Test (description = "If category with provided Id does not exist, object should not be created")
     public void wrongCategoryIdCheck(){
-        assertThat(apiDataService.getCategoryById(getToken(),"123456789")).isNull();
+        assertThat(apiDataService.getCategoryById("123456789")).isNull();
     }
 }

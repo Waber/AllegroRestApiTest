@@ -3,13 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/PostTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/PostTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/PostTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoryByIdTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/CategoryByIdTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +68,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CategoryByIdTests">
+  <component name="RunManager" selected="TestNG.ParametersSupportedByCategory">
+    <configuration name="CategoriesTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllegroTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.CategoriesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CategoriesTests.weatherTest" type="TestNG" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
@@ -100,24 +123,6 @@
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.CategoryByIdTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CategoryByIdTests.wrongCategoryIdCheck" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AllegroTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.CategoryByIdTests" />
-      <option name="METHOD_NAME" value="wrongCategoryIdCheck" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -179,18 +184,18 @@
     <list>
       <item itemvalue="TestNG.CategoriesTests.weatherTest" />
       <item itemvalue="TestNG.CategoryByIdTests" />
-      <item itemvalue="TestNG.ParametersSupportedByCategory" />
-      <item itemvalue="TestNG.CategoryByIdTests.wrongCategoryIdCheck" />
       <item itemvalue="TestNG.PostTests.getTest" />
       <item itemvalue="TestNG.PostTests" />
+      <item itemvalue="TestNG.CategoriesTests" />
+      <item itemvalue="TestNG.ParametersSupportedByCategory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ParametersSupportedByCategory" />
+        <item itemvalue="TestNG.CategoriesTests" />
         <item itemvalue="TestNG.CategoryByIdTests" />
         <item itemvalue="TestNG.PostTests" />
         <item itemvalue="TestNG.PostTests.getTest" />
-        <item itemvalue="TestNG.CategoryByIdTests.wrongCategoryIdCheck" />
-        <item itemvalue="TestNG.ParametersSupportedByCategory" />
       </list>
     </recent_temporary>
   </component>

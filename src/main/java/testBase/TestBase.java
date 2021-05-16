@@ -17,7 +17,6 @@ public class TestBase {
     public TestBase(){
         apiConnection = new ApiConnection();
         apiDataService = new ApiDataService();
-        //token = apiConnection.getAccessToken(clientId, clientSecretId);
         ApiConfig.setUp();
     }
 

@@ -15,7 +15,7 @@ public class CategoriesTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void prepare() {
-        categories = apiDataService.getListOfCategories(getToken());
+        categories = apiDataService.getListOfCategories();
     }
 
     @Test(description = "Validate size of category list")

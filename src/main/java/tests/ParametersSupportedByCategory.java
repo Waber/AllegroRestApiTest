@@ -15,7 +15,7 @@ public class ParametersSupportedByCategory extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void prepare() {
-        parameters = apiDataService.getParametersById(getToken(), categoryID);
+        parameters = apiDataService.getParametersById(categoryID);
     }
 
     @Test
@@ -40,6 +40,6 @@ public class ParametersSupportedByCategory extends TestBase {
 
     @Test
     public void checkNoParamatersForWrongCategoryId(){
-        assertThat(apiDataService.getParametersById(getToken(), "123456")).isNull();
+        assertThat(apiDataService.getParametersById("123456")).isNull();
     }
 }

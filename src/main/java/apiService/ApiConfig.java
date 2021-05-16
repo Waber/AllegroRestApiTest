@@ -3,6 +3,8 @@ package apiService;
 import apiConfig.Endpoints;
 import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
+import io.restassured.filter.log.RequestLoggingFilter;
+import io.restassured.filter.log.ResponseLoggingFilter;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
@@ -21,6 +23,8 @@ public abstract class ApiConfig {
                 .addHeader("Authorization", "Bearer " + token)
                 .addHeader("accept", "application/vnd.allegro.public.v1+json")
                 .addHeader("Content-Type", "application/vnd.allegro.public.v1+json")
+                .addFilter(new RequestLoggingFilter())
+                .addFilter(new ResponseLoggingFilter())
                 .build();
 
 
