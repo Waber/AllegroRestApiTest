@@ -1,4 +1,4 @@
-package tests;
+package tests.getMethods;
 
 import apiData.Categories;
 import org.testng.annotations.BeforeMethod;

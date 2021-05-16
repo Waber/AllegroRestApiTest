@@ -21,7 +21,7 @@ public abstract class ApiConfig {
         requestSpecification = new RequestSpecBuilder()
                 .setBaseUri(Endpoints.APIURL)
                 .addHeader("Authorization", "Bearer " + token)
-                .addHeader("accept", "application/vnd.allegro.public.v1+json")
+                .addHeader("Accept", "application/vnd.allegro.public.v1+json")
                 .addHeader("Content-Type", "application/vnd.allegro.public.v1+json")
                 .addFilter(new RequestLoggingFilter())
                 .addFilter(new ResponseLoggingFilter())
