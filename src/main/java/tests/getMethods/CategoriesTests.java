@@ -1,4 +1,4 @@
-package tests;
+package tests.getMethods;
 
 import apiData.Categories;
 import org.testng.annotations.BeforeMethod;
@@ -15,7 +15,7 @@ public class CategoriesTests extends TestBase {
 
     @BeforeMethod(alwaysRun = true)
     public void prepare() {
-        categories = apiDataService.getListOfCategories(getToken());
+        categories = apiDataService.getListOfCategories();
     }
 
     @Test(description = "Validate size of category list")
@@ -29,12 +29,12 @@ public class CategoriesTests extends TestBase {
             categories.stream().forEach(category -> assertThat(category.getId()).isNotNull());
             categories.stream().forEach(category -> assertThat(category.getLeaf()).isNotNull());
             categories.stream().forEach(category -> assertThat(category.getName()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getAdvertisement()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getAdvertisementPriceOptional()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getCustomParametersEnabled()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getOffersWithProductPublicationEnabled()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getProductCreationEnabled()).isNotNull());
-            categories.stream().forEach(category -> assertThat(category.getOptions().getVariantsByColorPatternAllowed()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isAdvertisement()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isAdvertisementPriceOptional()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isCustomParametersEnabled()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isOffersWithProductPublicationEnabled()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isProductCreationEnabled()).isNotNull());
+            categories.stream().forEach(category -> assertThat(category.getOptions().isVariantsByColorPatternAllowed()).isNotNull());
             categories.stream().forEach(category -> {
                 if (category.getLeaf()) {
                     assertThat(category.getParent().getId()).isNotNull();

@@ -13,11 +13,8 @@ import static io.restassured.RestAssured.given;
 public class ApiDataService {
 
 
-    public List<Categories> getListOfCategories(String token) {
-        RestAssured.baseURI = Endpoints.APIURL;
+    public List<Categories> getListOfCategories() {
         List<Categories> lista =  given()
-                .header("Authorization","Bearer " + token)
-                .header("accept","application/vnd.allegro.public.v1+json")
                 .when()
                 .get(Endpoints.CATEGORIES)
                 .then()
@@ -27,10 +24,8 @@ public class ApiDataService {
         return lista;
     }
 
-    public Categories getCategoryById(String token, String categoryId){
-        RestAssured.baseURI = Endpoints.APIURL;
-        Response op = given().header("Authorization","Bearer " + token)
-                .header("accept","application/vnd.allegro.public.v1+json")
+    public Categories getCategoryById(String categoryId){
+        Response op = given()
                 .when()
                 .get(Endpoints.CATEGORIES+"/"+ categoryId);
         if (op.getStatusCode() == 200){
@@ -41,12 +36,10 @@ public class ApiDataService {
         }
     }
 
-    public String getParametersById(String token, String id){
-        RestAssured.baseURI = Endpoints.APIURL;
-        Response op = given().header("Authorization","Bearer " + token)
-                .header("accept","application/vnd.allegro.public.v1+json")
+    public String getParametersById(String id){
+        Response op = given()
                 .when()
-                .get(Endpoints.CATEGORIES+"/"+ id + "/parameters");
+                .get(Endpoints.CATEGORIES+"/"+ id + Endpoints.PARAMETERS);
         if (op.getStatusCode() == 200){
             return op.getBody().asString();
         }

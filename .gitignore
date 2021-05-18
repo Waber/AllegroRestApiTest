@@ -1,0 +1,11 @@
+/target
+/.idea
+/.idea/*
+/*.iml
+/.idea/workspace.xml
+/test-output
+/test-output/*
+/test-output/axn-reports.html
+.idea
+.idea/*
+/build/
