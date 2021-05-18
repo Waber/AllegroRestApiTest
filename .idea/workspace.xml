@@ -3,24 +3,21 @@
   <component name="ChangeListManager">
     <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiData/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/apiData/Options.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Options.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiData/Parent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiData/Parent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiConfig/restAssuredConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/testBase/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CategoriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoriesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/CategoryByIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoryByIdTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/ParametersSupportedByCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/getMethods/ParametersSupportedByCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/PostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/postMethods/PostContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/Parent.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/categories.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tests/putMethods/putContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/putMethods/putContactTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Jsons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/Jsons.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/options.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/options.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoriesTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/CategoryByIdTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/ParametersSupportedByCategory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/PostTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/postMethods/PostContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/postMethods/PostContactTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/putMethods/putContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/putMethods/putContactTests.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,12 +32,6 @@
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>name</find>
-      <find>parent</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -74,24 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="CategoriesTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="AllegroTask" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.CategoriesTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.OtherPostMethods.getInfo">
     <configuration name="CategoriesTests.weatherTest" type="TestNG" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
@@ -118,34 +92,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryByIdTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OtherPostMethods.createTag" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.postMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.CategoryByIdTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.postMethods" />
+      <option name="MAIN_CLASS_NAME" value="tests.postMethods.OtherPostMethods" />
+      <option name="METHOD_NAME" value="createTag" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParametersSupportedByCategory" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="OtherPostMethods.getInfo" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.postMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.ParametersSupportedByCategory" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="tests.postMethods" />
+      <option name="MAIN_CLASS_NAME" value="tests.postMethods.OtherPostMethods" />
+      <option name="METHOD_NAME" value="getInfo" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -156,11 +132,11 @@
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.postMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
+      <option name="PACKAGE_NAME" value="tests.postMethods" />
       <option name="MAIN_CLASS_NAME" value="tests.postMethods.PostContactTests" />
       <option name="METHOD_NAME" value="createNewContact" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -174,11 +150,11 @@
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.postMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests" />
+      <option name="PACKAGE_NAME" value="tests.postMethods" />
       <option name="MAIN_CLASS_NAME" value="tests.postMethods.PostContactTests" />
       <option name="METHOD_NAME" value="getTest" />
       <option name="TEST_OBJECT" value="METHOD" />
@@ -188,21 +164,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="putContactTests.updateContactTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AllegroTask" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.putMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests.putMethods" />
+      <option name="MAIN_CLASS_NAME" value="tests.putMethods.putContactTests" />
+      <option name="METHOD_NAME" value="updateContactTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="TestNG.CategoriesTests.weatherTest" />
-      <item itemvalue="TestNG.CategoryByIdTests" />
-      <item itemvalue="TestNG.CategoriesTests" />
-      <item itemvalue="TestNG.ParametersSupportedByCategory" />
+      <item itemvalue="TestNG.OtherPostMethods.createTag" />
+      <item itemvalue="TestNG.OtherPostMethods.getInfo" />
       <item itemvalue="TestNG.PostContactTests.createNewContact" />
+      <item itemvalue="TestNG.putContactTests.updateContactTest" />
       <item itemvalue="TestNG.PostContactTests.getTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostContactTests.createNewContact" />
-        <item itemvalue="TestNG.CategoriesTests" />
+        <item itemvalue="TestNG.OtherPostMethods.getInfo" />
+        <item itemvalue="TestNG.putContactTests.updateContactTest" />
         <item itemvalue="TestNG.PostContactTests.getTest" />
-        <item itemvalue="TestNG.ParametersSupportedByCategory" />
-        <item itemvalue="TestNG.CategoryByIdTests" />
+        <item itemvalue="TestNG.PostContactTests.createNewContact" />
+        <item itemvalue="TestNG.OtherPostMethods.createTag" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +248,7 @@
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/apiService/ApiConfig.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/apiConfig/restAssuredConfiguration.java</url>
           <line>22</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>

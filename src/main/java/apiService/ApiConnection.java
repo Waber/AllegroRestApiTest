@@ -12,6 +12,7 @@ public class ApiConnection {
         RestAssured.baseURI = Endpoints.ALLEGRO_BASE;
         return given().auth().preemptive().basic(clientId,clientSecretId).log().all()
                 .formParam("grant_type", "client_credentials")
+                //.header("scope","allegro:api:profile:read")
                 .post("/auth/oauth/token")
                 .then()
                 .statusCode(200)

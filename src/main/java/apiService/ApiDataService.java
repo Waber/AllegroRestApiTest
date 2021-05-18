@@ -39,7 +39,7 @@ public class ApiDataService {
     public String getParametersById(String id){
         Response op = given()
                 .when()
-                .get(Endpoints.CATEGORIES+"/"+ id + "/parameters");
+                .get(Endpoints.CATEGORIES+"/"+ id + Endpoints.PARAMETERS);
         if (op.getStatusCode() == 200){
             return op.getBody().asString();
         }

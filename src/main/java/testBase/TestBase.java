@@ -1,7 +1,7 @@
 package testBase;
 
 import apiData.Jsons;
-import apiService.ApiConfig;
+import apiConfig.restAssuredConfiguration;
 import apiService.ApiConnection;
 import apiService.ApiDataService;
 
@@ -14,7 +14,7 @@ public class TestBase {
         apiConnection = new ApiConnection();
         apiDataService = new ApiDataService();
         jsons = new Jsons();
-        ApiConfig.setUp();
+        restAssuredConfiguration.setUp();
 
     }
 }
