@@ -14,8 +14,8 @@ public abstract class restAssuredConfiguration {
     public static RequestSpecification requestSpecification;
     public static ResponseSpecification responseSpecification;
     private static ApiConnection apiConnection = new ApiConnection();
-    private static String clientId = "Provide client id";
-    private static String clientSecretId = "Provide client secret id";
+    private static String clientId = "da4451538e2e4501bf5dbd3225ca303f";
+    private static String clientSecretId = "q89rtCYj7RPSEhOWswagnrU0QojX2tA0jGhiUNdrnRxk09fNouXBDnP8dG1DSsxq";
     private static final String token = apiConnection.getAccessToken(clientId, clientSecretId);
 
     public static void setUp() {

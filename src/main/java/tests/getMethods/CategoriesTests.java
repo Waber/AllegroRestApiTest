@@ -1,6 +1,8 @@
 package tests.getMethods;
 
+import apiConfig.Endpoints;
 import apiData.Categories;
+import org.assertj.core.api.AssertionsForClassTypes;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import testBase.TestBase;
@@ -44,4 +46,16 @@ public class CategoriesTests extends TestBase {
             });
         }
     }
+
+    @Test
+    public void assertThatContentTypeHeaderForCategoriesIsNotNull(){
+        AssertionsForClassTypes.assertThat(apiDataService.getHeaderValue(Endpoints.CATEGORIES,"content-type")).isNotNull();
+    }
+
+    @Test
+    public void assertDifferentApproachInExtractingReponseProvideSameData(){
+        List<String> names = apiDataService.getResponseDataAsList(Endpoints.CATEGORIES, "categories.name");
+        categories.forEach(category -> names.contains(category.getName()));
+    }
+
 }

@@ -12,8 +12,9 @@ public class putContactTests extends TestBase {
     @Test
     public void updateContactTest(){
         given().body(String.format(jsons.getCreateContactJson(),"Mecenas","parowa@xyz.pl","501051501"))
+                .pathParam("id",contactId)
                 .when()
-                .put(Endpoints.CONTACTS+"/"+contactId)
+                .put(Endpoints.SINGLE_CONTACT)
                 .then()
                 .statusCode(200);
     }

@@ -1,10 +1,12 @@
 package tests.getMethods;
 
+import apiConfig.Endpoints;
 import apiData.Categories;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import testBase.TestBase;
 
+import static io.restassured.RestAssured.given;
 import static org.assertj.core.api.AssertionsForInterfaceTypes.assertThat;
 
 public class CategoryByIdTests extends TestBase {
@@ -30,4 +32,16 @@ public class CategoryByIdTests extends TestBase {
     public void wrongCategoryIdCheck(){
         assertThat(apiDataService.getCategoryById("123456789")).isNull();
     }
+
+    @Test
+    public void getCategoryChildren(){//Extract this to external method and create proper class for data handling
+        given()
+                .queryParam("parent.id","2")
+                .when()
+                .get(Endpoints.CATEGORIES)
+                .then()
+                .statusCode(200);
+    }
+
+
 }
