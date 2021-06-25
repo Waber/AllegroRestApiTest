@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "leaf": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "options": {
+      "type": "object",
+      "properties": {
+        "advertisement": {
+          "type": "boolean"
+        },
+        "advertisementPriceOptional": {
+          "type": "boolean"
+        },
+        "variantsByColorPatternAllowed": {
+          "type": "boolean"
+        },
+        "offersWithProductPublicationEnabled": {
+          "type": "boolean"
+        },
+        "productCreationEnabled": {
+          "type": "boolean"
+        },
+        "customParametersEnabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "advertisement",
+        "advertisementPriceOptional",
+        "variantsByColorPatternAllowed",
+        "offersWithProductPublicationEnabled",
+        "productCreationEnabled",
+        "customParametersEnabled"
+      ]
+    },
+    "parent": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "leaf",
+    "name",
+    "options",
+    "parent"
+  ]
+}

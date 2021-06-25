@@ -2,20 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f10870-bb73-4f83-86d6-2c90d56f914a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiConfig/Endpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiConfig/restAssuredConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiConfig/restAssuredConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiService/ApiDataService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoriesTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoriesTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoryByIdTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/getMethods/CategoryByIdTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tests/putMethods/putContactTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tests/putMethods/putContactTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Jsons.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiData/Jsons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoriesTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoriesTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoryByIdTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoryByIdTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tests/putMethods/putContactTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tests/putMethods/putContactTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiConfig/Endpoints.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Jsons.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/categories.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiData/options.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/apiService/ApiDataService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testBase/TestBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoriesTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/getMethods/CategoryByIdTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/getMethods/ParametersSupportedByCategory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/postMethods/PostContactTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tests/putMethods/putContactTests.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,8 +49,20 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617273687183" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/target/classes" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\przemyslaw.waberski\IdeaProjects\AllegroRestApiTest\src\main\resources" />
+      <recent name="C:\Users\przemyslaw.waberski\IdeaProjects\AllegroRestApiTest\src\main\java" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\przemyslaw.waberski\IdeaProjects\AllegroRestApiTest\target\classes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,8 +76,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CategoriesTests.printCategoriesNames">
-    <configuration name="CategoriesTests.printCategoriesNames" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.GPathJsonTests.extractSingleValueFromSubNode">
+    <configuration name="CategoriesTests.categorySizeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
@@ -74,7 +87,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="tests.getMethods" />
       <option name="MAIN_CLASS_NAME" value="tests.getMethods.CategoriesTests" />
-      <option name="METHOD_NAME" value="printCategoriesNames" />
+      <option name="METHOD_NAME" value="categorySizeTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -108,17 +121,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryByIdTests.assertThatAcceptHeaderForCategoriesIsNotNull" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GPathJsonTests.extractMapOfElementsWithFind" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.getMethods" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.CategoryByIdTests" />
-      <option name="METHOD_NAME" value="assertThatAcceptHeaderForCategoriesIsNotNull" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GPathJsonTests" />
+      <option name="METHOD_NAME" value="extractMapOfElementsWithFind" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -126,17 +139,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CategoryByIdTests.getCategoryChildren" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GPathJsonTests.extractSingleValue" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.getMethods" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.CategoryByIdTests" />
-      <option name="METHOD_NAME" value="getCategoryChildren" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GPathJsonTests" />
+      <option name="METHOD_NAME" value="extractSingleValue" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,17 +157,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OffersTests.searchForOffersTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GPathJsonTests.extractSingleValueFromSubNode" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.getMethods.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.getMethods" />
-      <option name="MAIN_CLASS_NAME" value="tests.getMethods.OffersTests" />
-      <option name="METHOD_NAME" value="searchForOffersTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.GPathJsonTests" />
+      <option name="METHOD_NAME" value="extractSingleValueFromSubNode" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -162,17 +175,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostContactTests.getTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="schemaValidation.testCategoriesSchema" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="AllegroTask" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tests.postMethods.*" />
+          <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tests.postMethods" />
-      <option name="MAIN_CLASS_NAME" value="tests.postMethods.PostContactTests" />
-      <option name="METHOD_NAME" value="getTest" />
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.schemaValidation" />
+      <option name="METHOD_NAME" value="testCategoriesSchema" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -182,19 +195,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.CategoriesTests.weatherTest" />
-      <item itemvalue="TestNG.PostContactTests.getTest" />
-      <item itemvalue="TestNG.OffersTests.searchForOffersTest" />
-      <item itemvalue="TestNG.CategoryByIdTests.getCategoryChildren" />
-      <item itemvalue="TestNG.CategoryByIdTests.assertThatAcceptHeaderForCategoriesIsNotNull" />
-      <item itemvalue="TestNG.CategoriesTests.printCategoriesNames" />
+      <item itemvalue="TestNG.schemaValidation.testCategoriesSchema" />
+      <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
+      <item itemvalue="TestNG.GPathJsonTests.extractMapOfElementsWithFind" />
+      <item itemvalue="TestNG.GPathJsonTests.extractSingleValue" />
+      <item itemvalue="TestNG.GPathJsonTests.extractSingleValueFromSubNode" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.CategoriesTests.printCategoriesNames" />
-        <item itemvalue="TestNG.CategoryByIdTests.assertThatAcceptHeaderForCategoriesIsNotNull" />
-        <item itemvalue="TestNG.CategoryByIdTests.getCategoryChildren" />
-        <item itemvalue="TestNG.OffersTests.searchForOffersTest" />
-        <item itemvalue="TestNG.PostContactTests.getTest" />
+        <item itemvalue="TestNG.GPathJsonTests.extractSingleValueFromSubNode" />
+        <item itemvalue="TestNG.GPathJsonTests.extractSingleValue" />
+        <item itemvalue="TestNG.GPathJsonTests.extractMapOfElementsWithFind" />
+        <item itemvalue="TestNG.CategoriesTests.categorySizeTest" />
+        <item itemvalue="TestNG.schemaValidation.testCategoriesSchema" />
       </list>
     </recent_temporary>
   </component>
@@ -239,6 +252,26 @@
           <url>file://$PROJECT_DIR$/src/main/java/tests/getMethods/CategoryByIdTests.java</url>
           <line>22</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/schemaValidation.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/GPathJsonTests.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/GPathJsonTests.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/tests/GPathJsonTests.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
